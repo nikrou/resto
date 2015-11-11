@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Copyright (c) 2003-2015 Olivier Meunier & Association Dotclear",
-  "license": "GPL-V2"
+  "license": "GPL-V2",
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.4",
+    "webpack-dev-server": "^1.12.1"
+  }
 }
