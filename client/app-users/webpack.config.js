@@ -2,8 +2,7 @@ var webpack = require('webpack');
 
 var serverPort = 3000;
 var serverHost = 'localhost';
-var staticPath = '';
-
+var staticPath = '/static/';
 
 module.exports = {
     entry: [
