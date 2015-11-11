@@ -2,17 +2,16 @@ var webpack = require('webpack');
 
 module.exports = {
     entry: [
-	"./src/app.js"
+        "./src/index.js"
     ],
     output: {
-        path: __dirname + '/js',
+        path: __dirname + '/js/app',
         filename: "bundle.js"
     },
     module: {
-        loaders: [
-            { test: /\.js?$/,
-	      loader: 'babel'
-	    }
-	]
+        loaders: [{
+            test: /\.js?$/,
+            loader: 'babel'
+        }]
     }
 }
