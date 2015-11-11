@@ -9,9 +9,11 @@ module.exports = {
         filename: "bundle.js"
     },
     module: {
-        loaders: [{
-            test: /\.js?$/,
-            loader: 'babel'
-        }]
+        loaders: [
+	    {
+		test: /\.jsx?$/,
+		loader: 'babel'
+            }
+	]
     }
 }

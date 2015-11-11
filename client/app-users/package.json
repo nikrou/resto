@@ -7,14 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Copyright (c) 2003-2015 Olivier Meunier & Association Dotclear",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nikrou/resto.git"
+  },
   "license": "GPL-V2",
   "dependencies": {
     "react": "^0.14.2",
     "react-dom": "^0.14.2"
   },
   "devDependencies": {
-    "babel-core": "^6.1.4",
-    "babel-loader": "^6.1.0",
+    "babel-core": "^5.8.33",
+    "babel-loader": "^5.3.3",
     "webpack": "^1.12.4",
     "webpack-dev-server": "^1.12.1"
   }
