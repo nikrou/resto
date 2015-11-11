@@ -1,2 +1,2 @@
 # resto
-POC for Rest API for doctlear
+Proof of concept for Rest API for doctlear
