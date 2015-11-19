@@ -16,6 +16,8 @@ $core->blog->settings->addNameSpace('dcReactify');
 $dcreactify_active = $core->blog->settings->dcReactify->active;
 $is_super_admin = $core->auth->isSuperAdmin();
 
+$default_tab = 'settings';
+
 if (!empty($_POST['saveconfig'])) {
     try {
         $dcreactify_active = (empty($_POST['dcreactify_active']))?false:true;

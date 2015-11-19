@@ -1,6 +1,7 @@
 <html>
   <head>
     <title><?php echo __('dcReactify');?></title>
+    <?php echo dcPage::jsPageTabs($default_tab);?>
   </head>
   <body>
     <?php echo dcPage::breadcrumb(array(html::escapeHTML($core->blog->name) => '', __('dcReactify') => ''));?>
@@ -29,7 +30,7 @@
     </div>
 
     <?php if ($dcreactify_active):?>
-    <div class="multi-part" id="relatedlinks_settings" title="<?php echo __('Application');?>">
+    <div class="multi-part" id="relatedlinks_app" title="<?php echo __('Application');?>">
       <div id="app"></div>
       <script src="http://localhost:3000/static/bundle.js"></script>
     </div>
