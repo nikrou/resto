@@ -7,6 +7,8 @@ https://github.com/happypoulp/redux-tutorial
 ## Reactify the world : Thinking in react
 https://facebook.github.io/react/docs/thinking-in-react.html
 
+## JSX
+https://facebook.github.io/react/docs/jsx-in-depth.html
 
 ## Redux
 https://github.com/gajus/canonical-reducer-composition
