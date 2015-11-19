@@ -3,9 +3,14 @@ import React from 'react';
 class Hello extends React.Component
 {
     render() {
-		return (
-		    <h4>Hello {this.props.username}!</h4>
-		);
+	const hellos = this.props.names.map(function(name) {
+	    return (<h4>Hello {name}!</h4>)
+	});
+	return (
+	    <div>
+	    {hellos}
+	    </div>
+	);
     }
 }
 
