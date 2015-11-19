@@ -9,7 +9,7 @@ class Users extends React.Component
 		});
 		return (
 		    <table>
-		    <caption class="hidden">Liste des utilisateurs</caption>
+		    <caption className="hidden">Liste des utilisateurs</caption>
 		    <tbody>
 		    {users}
 		    </tbody>
