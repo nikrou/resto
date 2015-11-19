@@ -4,7 +4,7 @@ class Hello extends React.Component
 {
     render() {
 		return (
-		    <h4>Hello Big World!</h4>
+		    <h4>Hello {this.props.username}!</h4>
 		);
     }
 }
