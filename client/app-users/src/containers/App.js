@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import Hello from '../components/Hello';
+import Users from '../components/Users';
 
 class App extends Component {
 	render() {
 	    return (
-		<Hello names={
+		<Users names={
 			[
 			    {
 			    'user_id':'admin',

@@ -5,7 +5,7 @@ class Users extends React.Component
 {
     render() {
 		const users = this.props.names.map(function(name) {
-		    return (<User {name} />)
+		    return (<User user={name} />)
 		});
 		return (
 		    <table>
